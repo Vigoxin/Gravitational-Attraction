@@ -85,6 +85,8 @@ class Particle {
 	}
 
 	display() {
+		stroke(0);
+		fill(0);
 		stroke(0, 255, 0);
 		fill(0, 255, 0);
 		ellipse(this.loc.x, this.loc.y, this.diameter);
